@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="theme-color" content="#BC8887" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Chrome" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Invitacion boda Lisbeth & Victor</title>
+
+    <meta property="og:title" content="">
+    <meta property="og:description" content="">
+    <meta property="og:locale" content="id_ID" />
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+    <meta name="twitter:card" content="summary_large_image">
+    <!-- Bulma Version 0.8.x-->
+    <link rel="stylesheet" href="https://unpkg.com/bulma@0.8.0/css/bulma.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/bulma-tooltip@0.1.5/dist/bulma-tooltip.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/menikah.css" />
+    <link rel="stylesheet" type="text/css" href="css/jquery.countdown.css" />
+    <script
+      src="https://kit.fontawesome.com/2828f7885a.js"
+      integrity="sha384-WAsFbnLEQcpCk8lM1UTWesAf5rGTCvb2Y+8LvyjAAcxK1c3s5c0L+SYOgxvc6PWG"
+      crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="js/jquery.coundown.js"></script>
+    <link rel="icon" type="image/png" href="image/favicon.png" />
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-23064379-20"></script>
+    <!-- Begin Script for Countdown -->
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-23064379-20');
+    </script>
+    <!-- Begin Script for Countdown -->
+
+    <!-- Github Button -->
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+  </head>
+
+  <body>
+    <!-- Begin Preloader -->
+    <div class="preloader-wrapper">
+      <div class="preloader">
+        <img src="image/favicon.png" alt="Flower" />
+      </div>
+    </div>
+    <!-- End Preloader-->
+    <!-- Begin Header -->
+    <div class="header-wrapper" id="home">
+      <!-- Begin Hero -->
+      <section class="hero is-large">
+        <!-- Begin Mobile Nav -->
+        <nav class="navbar is-transparent is-hidden-desktop">
+          <!-- Begin Burger Menu -->
+          <div class="navbar-brand is-fixed-top">
+            <div class="navbar-burger burger" data-target="mobile-nav">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+          <!-- End Burger Menu -->
+          <div id="mobile-nav" class="navbar-menu">
+            <div class="navbar-end">
+              <div class="navbar-item">
+                <a class="navbar-item" href="#Waktu">
+                  Waktu
+                </a>
+              </div>
+              <div class="navbar-item">
+                <a class="navbar-item" href="#lokasi">
+                  Lokasi
+                </a>
+              </div>
+              
+              <div class="navbar-item">
+                <a class="navbar-item" href="#tentang-sherly-daeng">
+                  Tentang Sherly dan Daeng
+                </a>
+              </div>
+              <div class="navbar-item">
+                <a class="navbar-item" href="#rsvp">
+                  RSVP(Invitaciones)
+                </a>
+              </div>
+            </div>
+          </div>
+        </nav>
+        <!-- End Mobile Nav -->
+        <!-- Begin Hero Content-->
+        <div class="hero-body">
+          <div class="container has-text-centered">
+            <h1 class="subtitle" style="color: white;">
+              <strong>Invitación a nuestra boda</strong></h1>
+            <h2 class="title">Lisbeth & Víctor</h2>
+            <h4 class="subtitle tempatwaktu" style="color: black;">
+              <strong>
+                Sabado, 20 Abril 2024 
+                </br>
+                Don Pepe 250, La Florida, Región Metropolitana
+                </br>
+                Club de Leones La Florida Sur
+              </strong>
+            </h4>
+          </div>
+          <!-- Start Countdown -->       
+          <div>
+            <ul id="hitungmundur" >
+              <li><span class="days">00</span><p class="días_text">Días</p></li>
+              <li class="separator">:</li>
+              <li><span class="hours">00</span><p class="horas_text">Horas</p></li>
+              <li class="separator">:</li>
+              <li><span class="minutes">00</span><p class="Minutos_text">Minutos</p></li>
+              <li class="separator">:</li>
+              <li><span class="seconds">00</span><p class="Segundos_text">Segundos</p></li>
+            </ul>
+            <div class="spasi">
+            </div>
+            <script type="text/javascript">
+                var now = new Date();
+                var day = now.getDate();
+                var month = now.getMonth() + 1;
+                var year = now.getFullYear() + 1;
+
+                var nextyear = month + '/' + day + '/' + year + ' 07:07:07';
+
+                $('#hitungmundur').countdown({
+                  date: '04/20/2024 16:00:00', // TODO Date format: 07/27/2017 17:00:00
+                  offset: +2, // TODO Your Timezone Offset
+                  day: 'Day',
+                  days: 'Days',
+                  hideOnComplete: true
+                }, function(container) {
+                  alert('Done!');
+                });
+            </script>  
+          </div>
+          <!-- End Countdown -->
+        </div>
+        <!-- End Hero Content-->
+        <!-- Begin Hero Menu -->
+        <div class="hero-foot ">
+          <div class="hero-foot--wrapper">
+            <div class="columns">
+              <div class="column is-12 hero-menu-desktop has-text-centered">
+                <ul>
+                  <li class="is-active">
+                    <a href="#home"><i class="fa fa-home" aria-hidden="true"></i> Home</a>
+                  </li>
+                  <li>	
+                    <a href="#Waktu"><i class="fa fa-clock " aria-hidden="true"></i> Hora</a>
+                  </li>
+                  <li>
+                    <a href="#lokasi"><i class="fa fa-location"></i> Ubicación</a>
+                  </li>
+                  <li>
+                    <a href="#tentang-sherly-daeng"><i class="fa fa-info-circle"></i> Acerca de Víctor & Lisbeth</a>
+                  </li>
+                  <li> 
+                    <a href="#rsvp"> <i class="fa fa-envelope"></i> RSVP (Invitación)</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- End Hero Menu -->
+      </section>
+      <!-- End Hero -->
+    </div>
+    <!-- End Header -->
+
+    <!-- Begin Main Content -->
+    <div class="main-content">
+    <!-- Begin regular-section-->
+     <section class="section-light no-padding-top regular-section has-text-centered has-vertically-aligned-content" id="regular-section">
+        
+        <div data-aos="fade-up" data-aos-easing="linear">
+         <!--
+          <img src="image/bismillah.png" class="bismillah has-text-centered" alt="Bismillahirrahmaanirrahiim">
+        -->
+        <p class="bodytext" data-aos="fade-up" data-aos-easing="linear">
+         <em> "Y si alguno prevaleciere contra uno, dos le resistirán; y cordón de tres dobleces no se rompe pronto."</em>
+          <p>Eclesiastés 4:12,RVR1960</p>
+        </p>
+        </div>
+      </br>
+
+        <p class="bodytext" data-aos="fade-up" data-aos-easing="linear">
+          Es con gran alegría en nuestros corazones 
+          <br />
+          que les invitamos a celebrar nuestra unión en matrimonio, 
+          <br />
+          bajo la bendición de Dios 
+        </p>
+
+        <span class="space40px"></span>
+        <span class="space40px"></span>
+
+        <div data-aos="fade-up" data-aos-easing="linear">
+          <div class="nama-lengkap" >
+            Lisbeth D.C. Yanez Jacome
+          </div>
+          <div class="ampersand">&</div>
+          <div class="nama-lengkap">
+            Víctor J. Monsalves Molina
+          </div>
+           
+        </div>
+        <span class="space40px"></span>
+        <div data-aos="fade-up" data-aos-easing="linear">
+          <img src="image/divider-leaves.png" class="divider has-text-centered" alt="~~~">
+        </div>
+        <span class="space40px"></span>
+        <span class="space40px"></span>
+      </section>
+      <!-- End regular-section-->    
+      
+      <!-- Begin Waktu Section -->
+      <section class="section-dark" id="Waktu">
+        <div class="container">
+
+          <div class="column is-12 regular-section" data-aos="fade-up" data-aos-easing="linear">
+            <h1 class="title has-text-centered section-title">Hora del evento</h1>
+          </div>
+          <div class="columns is-multiline" data-aos="fade-up" data-aos-easing="linear">
+            <div
+              class="column is-4 has-vertically-aligned-content">
+            
+              <p class="is-larger has-text-centered">
+                  <div class="waktu tanggal-hari has-text-centered">Sabado</div> 
+                  <div class="waktu tanggal-angka has-text-centered">20</div>
+                  <div class="waktu tanggal-bulan has-text-centered">Abril 2024</div>
+              </p>
+            
+            </div>
+            <div class="column is-4 has-vertically-aligned-content">
+            
+              <p class="waktu is-larger has-text-centered">
+                Ceremonia matrimonial
+                <br>
+                <strong>16:00 HRS</strong>
+              </p>
+            
+            </div>
+
+            <div class="column is-4 has-vertically-aligned-content">
+              
+              <h1 class="waktu is-larger has-text-centered">
+                Recepción:
+                <br>
+                <strong>16:00  - 17:00 HRS</strong>
+              </h1>
+              
+              <p><strong>Recuerda ser puntual a la hora estipulada</strong></p>
+            </div>
+
+          </div>
+        </div>
+        <div class="space40px"></div>
+        <div class="main-content has-text-centered" data-aos="fade-up" data-aos-easing="linear">
+          <a href="https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=M2tyZml1MDloN3BzMjVyZmoyamc0Mzc1c3AgeGF2aWVyLm1vbnNhbHZlc3NAbQ&tmsrc=xavier.monsalvess%40gmail.com" target="_blank" class="button has-tooltip btn-cta" data-tooltip="Add to Calendar" target="_blank" data-aos="zoom-in">
+            <i class="far fa-calendar-plus"></i>
+            &nbsp;&nbsp;Google Calendar
+          </a>
+          <p>No olvides agregar el evento a tu google calendar</p>
+        </div>
+      </section>
+      <!-- End Waktu Content -->
+
+      <!-- Begin Lokasi Section -->
+      <section class="section-darker" id="lokasi" >
+        <div class="container">
+          <div class="column is-12 regular-section" data-aos="fade-up" data-aos-easing="linear">
+            <h1 class="title has-text-centered section-title">Ubicación</h1>
+            <p class="tempat is-larger has-text-centered">
+              <strong>CLub los Leones</strong>
+              <br>
+              Don Pepe 250, La Florida, Región Metropolitana
+              <br>
+          
+            </p>
+          </div>
+          <div class="section-map" data-aos="fade-up" data-aos-easing="linear">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13304.016945439578!2d-70.60961965245988!3d-33.52727548601225!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662d08b3d6a54d7%3A0x1f2ab428ab3e5bc9!2sDon%20Pepe%20250%2C%208260388%20La%20Florida%2C%20Regi%C3%B3n%20Metropolitana!5e0!3m2!1ses-419!2scl!4v1709574052282!5m2!1ses-419!2scl" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+          </div>
+          <div class="space40px"></div>
+          <div class="has-text-centered" data-aos="fade-up" data-aos-easing="linear">
+           
+          </div>
+        </div>
+      </section>
+      <!-- End Lokasi Content -->
+
+      <!-- Begin Tentang Sherly and Daeng -->
+      <section class="section-light regular-section is-fullheight" id="tentang-sherly-daeng">
+        <div class="container">
+          <div class="columns is-multiline">  
+          <div class="column has-text-centered is-12 prolog">
+            <h1 class="title has-text-centered section-title" data-aos="fade-up"
+             data-aos-easing="linear">Acerca de nosotros: Víctor & Lisbeth</h1>
+            
+          <!-- IMAGES -->  
+        <div class=" tile">
+          <div class="tile is-ancestor">
+          <div class="tile is-parent">
+            <article class="tile is-child foto1 notification foto1" data-aos="fade-up" data-aos-easing="linear">
+              <div class="content">
+                <p class="title-foto">44696369656d6272650d0a - 2023</p>
+                <p class="subtitle-foto">
+                  Nos conocimos trabajando al padre, en una noche repartiendo la palabra en un hospital, quien hubiese pensado que seria el inicio de una hermosa historia de Amor 💕
+                </p>
+              </div>
+            </article>
+          </div>
+          <div class="tile is-parent">
+            <article class="tile is-child notification foto2" data-aos="fade-up" data-aos-easing="linear">
+              <div class="content">
+                <p class="title-foto">
+                  4d61796f0d0a - 2023 / 4e6f7669656d6272650d0a -2023
+                </p>
+                <p class="subtitle-foto">
+                  Y se formo una hermosa relación en donde Dios es nuestro centro en todo momento 🙏
+                </p>   
+              </div>            
+            </article>
+          </div>
+          <div class="tile is-parent">
+            <article class="tile is-child notification foto3" data-aos="fade-up" data-aos-easing="linear">
+              <div class="content">  
+                <p class="title-foto">
+                  4e6f7669656d6272650d0a 2023
+                </p>
+                <p class="subtitle-foto">
+                  Nos comprometimos!! 🎉. 
+                </p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+      <div class="space24px"></div>
+      <div class="tile is-ancestor">
+        <div class="tile is-parent">
+          <article class="tile is-child notification foto6" data-aos="fade-up" data-aos-easing="linear">
+            <div class="content">
+              <p class="title-foto">fotos</p>
+              <p class="subtitle-foto">❤️</p>
+            </div>
+          </article>
+        </div>
+        <div class="tile is-parent">
+          <article class="tile is-child notification foto4" data-aos="fade-up" data-aos-easing="linear">
+            <div class="content">
+              <p class="title-foto">Más fotos</p>
+              <p class="subtitle-foto">🥰🥰</p>
+            </div>
+          </article>
+        </div>
+        <div class="tile is-parent">              
+          <article class="tile is-child notification foto5" data-aos="fade-up" data-aos-easing="linear">
+            <div class="content">
+              <p class="title-foto">y Más fotos</p>
+              <p class="subtitle-foto">👨🏻‍👩‍👧🏼</p>
+            </div>
+          </article>
+        </div>
+      </div>   
+          <!-- IMAGES -->
+          <div class="space40px"></div>
+            <div data-aos="fade-up" data-aos-easing="linear">
+              <img src="image/divider-leaves.png" class="divider has-vertically-align" alt="~~~">
+            </div> 
+            <div class="space40px"></div>
+            <div class="space40px"></div>
+
+          </div>
+        </div>
+      </section>
+      <!-- End Tentang Sherly dan Daeng -->
+
+      <!-- Begin RSVP Content -->
+      <section class="section-dark contact" id="rsvp">
+        <div class="container">
+          <div class="columns is-multiline">          
+            <div class="column is-12 prolog">
+              <h1 class="title has-text-centered section-title" data-aos="fade-up" data-aos-easing="linear">A tener en cuenta</h1>
+            </div>
+            <div class="column is-12 prolog has-text-centered" data-aos="fade-up" data-aos-easing="linear">
+              <p class="h2 subtitle">
+                <i class="fa fa-child" aria-hidden="true"></i> Sobre los niños.
+                <br>
+                <section>Para garantizar que la ceremonia sea agradable para todos, es importante que estés atento al 100% tu hijo/a.
+                </section>
+                <br>
+                <i class="fa fa-female" aria-hidden="true"></i> Sobre la vestimenta.
+                <br>
+                <section>Para mantener un ambiente armonioso y respetuoso, se sugiere vestimenta formal y se recomienda evitar el uso de colores negros o blancos específicamente para las mujeres en la ocasión.
+                </section>
+                <br>
+                <i class="fa fa-female" aria-hidden="true"></i> Sobre el horario.
+                <br>
+                <section>Recuerda ser puntual con la hora estipulada.
+                </section>
+                <br>
+                <br>
+                Nos vemos ese día, Dios les bendiga :)
+                </p>
+     
+              <a href="https://api.whatsapp.com/send?phone=966725455&text=Hola, Victor %20Confirmo nuestra asistencia,%20estaremos ese día especial con ustedes&source=&data=" class="button btn-whatsapp" target="_blank" data-aos="zoom-in">
+                <i class="fab fa-whatsapp"></i>
+                &nbsp;&nbsp;Victor J. Monsalves
+              </a>
+              
+              <a href="https://api.whatsapp.com/send?phone=956253608&text=Hola, Lisbeth %20Confirmo nuestra asistencia,%20estaremos ese día especial con ustedes&source=&data=" class="button btn-whatsapp" target="_blank" data-aos="zoom-in">
+                <i class="fab fa-whatsapp"></i>
+                &nbsp;&nbsp;Lisbeth Yanez
+              </a>
+
+              <div class="space40px"></div>
+
+              <div class="space40px"></div>
+              <div data-aos="fade-up" data-aos-easing="linear">
+                <img src="image/divider-leaves.png" class="divider has-text-centered" alt="~~~">
+              </div>
+              <div class="space40px"></div>
+              <p class="h2 subtitle" data-aos="fade-up" data-aos-easing="linear">
+                Victor Monsalves Molina
+                <br>
+                <p>Regalo para mí nueva familia 👨🏻‍👩‍👧🏼</p>
+                <br>
+                <h1>Mi Playlist de Música</h1>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/gO8-9OWzPOQ?si=lvxj-SMlrVJ_on76" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <br>
+                <a class="instagram":" href="https://instagram.com/#" target="_blank" alt="Instagram Soy.el.xaviii">
+                  <i class="fab fa-instagram"></i> @vmondev
+                </a>
+                &nbsp
+            
+
+            </div>
+ 
+         </div>
+        </div>
+      </section>
+      <!-- End RSVP Content -->
+    </div>
+    <!-- End Main Content -->
+
+    <!-- Begin Footer -->
+    <div class="footer">
+      <div class="container">
+      
+      </div>
+    </div>
+    <!-- End Footer -->
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/menikah.js"></script>
+    <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+    <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        easing: "ease-out",
+        duration: 800,
+      });
+    </script>
+  </body>
+</html>
